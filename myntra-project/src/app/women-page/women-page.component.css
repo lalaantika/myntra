@@ -1,0 +1,33 @@
+.men-header{
+    display:inline-flex;
+    margin-left:10px;;
+}
+.sort-postition{
+  position: absolute;
+  margin-right: 30px;;
+  right:0;
+}
+.ui.menu .item {
+    padding-left:2rem;
+    padding-right:2rem;
+}
+.options{
+    display: inline-flex;
+}
+.options .ui.item{
+    padding:0 15px 0 15px;
+    font-weight: 500;
+} 
+.ui.divider{
+    border-top: 3px solid  #F5F5F6!important;
+    border-bottom: 2px solid  #F5F5F6 !important;
+    margin-left:0!important;
+}
+.ui.fuild.card{
+    width:250px;
+    margin:10px 10px  10px 20px;
+
+}
+.ui.fluid.card:hover{
+    box-shadow: 10px 10px 10px 10px #A1A7AD !important;
+}
