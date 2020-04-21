@@ -1,0 +1,25 @@
+.top-list{
+    margin-left: 20px;
+}
+.item{
+    font-weight:bold;
+    color:black;
+}
+.ui.divider{
+    border-top: 3px solid  #F5F5F6!important;
+    border-bottom: 2px solid  #F5F5F6 !important;
+    margin-left:0!important;
+}
+.ui.checkbox label{
+    padding-bottom: 10px;
+}
+.ui.vertical.divider{
+    left:100%;
+    border-left: 3px solid  #F5F5F6!important;
+    border-right: 2px solid  #F5F5F6 !important;
+    top:0;
+    height:100%
+}
+.ui.vertical.divider:before{
+    top:0;
+}

@@ -31,3 +31,8 @@
 .ui.fluid.card:hover{
     box-shadow: 10px 10px 10px 10px #A1A7AD !important;
 }
+.text-font{
+    font-size: 1.1rem;
+    padding: 15px;
+    font-weight: 500;
+}

@@ -7,6 +7,9 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MenPageComponent } from './men-page/men-page.component';
 import { WomenPageComponent } from './women-page/women-page.component';
 import { SideBarComponent } from './side-bar/side-bar.component';
+import { KidsComponent } from './kids/kids.component';
+import { HomeLivingComponent } from './home-living/home-living.component';
+import { SidebarCatComponent } from './sidebar-cat/sidebar-cat.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +17,10 @@ import { SideBarComponent } from './side-bar/side-bar.component';
     NavBarComponent,
     MenPageComponent,
     WomenPageComponent,
-    SideBarComponent
+    SideBarComponent,
+    KidsComponent,
+    HomeLivingComponent,
+    SidebarCatComponent
   ],
   imports: [
     BrowserModule,
