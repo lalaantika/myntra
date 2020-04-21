@@ -1,0 +1,36 @@
+
+.ui.secondary.menu .item {
+    font-family:Whitney, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-size:1.25rem;
+    font-weight: bolder;
+    padding:5px;
+}
+
+.ui.menu .item>img{
+    width:8rem;
+    height:60px;
+    background-color: white;
+}
+
+.ui.input>input{
+    background-color: #F5F5F6;
+}
+.ui.divider{
+border-top: 3px solid  #F5F5F6!important;
+border-bottom: 2px solid  #F5F5F6 !important;
+}
+.ui.secondary.menu .item:hover{
+background-color: white;
+}
+.small-menu{
+    display: none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 873px) {
+.small-menu{
+    display:block;
+}
+.ui.secondary.menu{
+    display:none;
+}
+}
