@@ -25,7 +25,19 @@ background-color: white;
 .small-menu{
     display: none;
 }
-
+.ui .simple .dropdown .item>img{
+    width:4rem;
+    height:30px;
+    background-color: white;
+    padding:0;
+}
+.bars.icon{
+    font-size: 2rem;
+    padding-left: 5px;
+}
+.ui.menu .item:hover{
+    background-color: white;
+}
 @media only screen and (min-width: 300px) and (max-width: 873px) {
 .small-menu{
     display:block;
