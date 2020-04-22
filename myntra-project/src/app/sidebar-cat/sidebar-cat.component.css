@@ -34,3 +34,14 @@
     }
     
 }
+@media only screen and (min-width: 300px) and (max-width: 588px){
+    .side-button-1{
+        display:none;
+    }
+    .side-button-2{
+        display: flex;
+    }
+    .ui .simple .dropdown .item{
+        padding: 0;
+    }
+}
