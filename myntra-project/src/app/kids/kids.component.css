@@ -36,3 +36,17 @@
     padding: 15px;
     font-weight: 500;
 }
+.screen2{
+    display:none;
+}
+@media only screen and (min-width: 300px) and (max-width: 873px) {
+    .sort-postition{
+        display:none;
+      }
+      .screen1{
+        display: none;
+    }
+    .screen2{
+        display:flex;
+    }
+    }

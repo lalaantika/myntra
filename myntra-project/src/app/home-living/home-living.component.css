@@ -24,7 +24,7 @@
     margin-left:0!important;
 }
 .ui.fuild.card{
-    width:250px;
+    width:90%;
     margin:10px 10px  10px 20px;
 
 }
@@ -35,4 +35,27 @@
     font-size: 1.1rem;
     padding: 15px;
     font-weight: 500;
+}
+.screen2{
+    display:none;
+}
+
+@media only screen and (min-width: 300px) and (max-width: 860px) {
+    .sort-postition{
+        display:none;
+      }
+      .screen1{
+        display: none;
+    }
+    .screen2{
+        display:flex;
+    }
+    .ui.fuild.card{
+        width:70%;
+        margin:10px 10px  10px 30px;
+    
+    }
+    .ui .header{
+        font-size: 1rem;
+    }
 }

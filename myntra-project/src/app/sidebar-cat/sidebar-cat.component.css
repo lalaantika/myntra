@@ -23,3 +23,14 @@
 .ui.vertical.divider:before{
     top:0;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 680px)
+{
+    .ui.vertical.divider{
+        display: none;
+    }
+    .top-list{
+        margin-left: 5px;
+    }
+    
+}
